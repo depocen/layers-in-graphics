@@ -1,0 +1,8 @@
+\usepackage[T1]{fontenc}
+\usepackage[sfdefault,scaled=.85]{FiraSans}
+\usepackage{changepage}
+\usepackage{color}
+\usepackage{float}
+\definecolor{palesilver}{rgb}{0.49, 0.45, 0.43}
+\makeatletter\renewcommand*{\fps@figure}{H}\makeatother
+\usepackage{etoolbox}\BeforeBeginEnvironment{verbatim}{\begingroup\color{palesilver}\footnotesize\begin{adjustwidth}{.5cm}{.5cm}}\AfterEndEnvironment{verbatim}{\end{adjustwidth}\endgroup}
